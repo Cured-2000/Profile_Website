@@ -3,11 +3,34 @@
 }
 
 .font-fam {
-  font-family: serif;
+  font-family:Arial;
 }
 .card {
   background-color: gray;
 }
 .card-body {
-    align-content:flex-end;
+    align-content: flex-end;
 }
+.badge {
+  float: right;
+}
+img {
+  margin-bottom: 40px;
+  max-height: 900px;
+  max-width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-brand {
+    margin-top:30px;
+    float:left;
+}
+.fw-bold {
+    text-align:left;
+}
+.ms-2 {
+    text-align:left;
+   
+}
+

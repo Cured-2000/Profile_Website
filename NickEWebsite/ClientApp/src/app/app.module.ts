@@ -11,6 +11,7 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ExpirComponent } from './expir/expir.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
     CounterComponent,
     FetchDataComponent,
     ExpirComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
