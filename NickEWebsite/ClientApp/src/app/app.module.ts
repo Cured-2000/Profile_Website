@@ -12,6 +12,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ExpirComponent } from './expir/expir.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EducationComponent } from './education/education.component';
     FetchDataComponent,
     ExpirComponent,
     AboutMeComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
