@@ -14,9 +14,9 @@ export class ExpirComponent implements OnInit {
   data = [
     {
       name: 'Personal Website',
-      description: 'A website that displays my personal projects and eduacation to prospective employers. This will eventually turn into a blog site where I can vent about SWE related topics and other tech related topics',
+      description: 'A website that displays my personal projects and eduacation to prospective employers. This will eventually turn into a blog site where I can vent about SWE related topics and other tech related topics. Currently the website is very much a work in progress. Any feedback is welcome and very much appricated!',
       image_data: '',
-      acomplishments: ['Developed functional and reusable components ', 'Learned MVC architecture', ],
+      acomplishments: ['Developed functional and reusable components ', 'Learned MVC architecture',"Showcased projects and expirence Using Angular components" ],
       github_link: 'https://github.com/Cured-2000/Profile_Website',
       date: 'March 2022 - Current',
       tech_list: 'C#, .NET, Typescript, Angular, HTML, CSS, Digital Ocean, Apache',
