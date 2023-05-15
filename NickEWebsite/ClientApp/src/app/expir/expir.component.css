@@ -41,4 +41,8 @@ img {
 .tech_list {
     color:darkslateblue;
 }
+.card-title {
+  font-weight: bolder;
+  font-size: large;
+}
 

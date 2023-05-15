@@ -1,7 +1,7 @@
 .card {
     background-color:gray;
-    min-width:20rem;
-    height:25rem;
+    min-width:fit-content;
+    height:fit-content;
     margin-top:50px;
     margin-bottom: 50px;
 }
@@ -10,7 +10,9 @@
   display: table-cell;
   text-align:left;
   font-weight:bolder;
+  margin:2rem;
 }
 .card-title {
-    color:white
+  color: white;
+  margin:2rem;
 }

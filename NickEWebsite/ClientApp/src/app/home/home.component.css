@@ -37,3 +37,6 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+.top {
+    display:inline-flex;
+}

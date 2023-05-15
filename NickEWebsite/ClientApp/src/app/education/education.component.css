@@ -35,4 +35,10 @@
     font-weight:bold;
     font-style:italic;
 }
-
+.card-title {
+  font-weight: bolder;
+  font-size: large;
+}
+.description {
+    margin:1rem;
+}
