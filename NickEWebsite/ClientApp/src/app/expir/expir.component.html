@@ -3,24 +3,32 @@
 <div layout="row" layout-align="space-between" flex>
   <div class="container margin-30">
     <div class="card">
+      Expirence and Projects
       <div class="card-body">
         <ol class="list-group">
           <li *ngFor="let item of data" class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
               <img class="card-img-top" src="{{item.image_data}}">
               <div class="fw-bold font-fam">{{item.name}} <span class="badge bg-primary rounded-pill">{{item.date}}</span> </div>
-              <div class="description" >{{item.description}}</div>
+              <div class="description">{{item.description}}</div>
+              <div class="title">
+                Acomplishments
+                <ul *ngFor="let i of item.acomplishments">
+                  <li>{{i}}</li>
+                </ul>
+              </div>
+              <div class="tech_list">Technologies used: {{item.tech_list}}</div>
+              <div class="demo_link">
+                DEMO: 
+                <a href="url">{{item.demo_link}}</a>
+              </div>
               <div class="navbar-brand">
                 Github Link:
+                <a href="url">{{item.github_link}}</a>
               </div>
-              <div class="title">Acomplishments</div>
-              <ul>
-                <li>
-                  {{item.acomplishments}}
-                </li>
-              </ul>
-            </div>
-            
+
+
+            </div>        
           </li>
         </ol>
       </div>

@@ -11,5 +11,52 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  data = [
+    {
+      skill_name: 'Angular',
+      proficency: 'Beginner'
+    },
+    {
+      skill_name: 'C#',
+      proficency: 'Beginner'
+    },
+    {
+      skill_name: 'Java',
+      proficency:'Proficent'
+    },
+    {
+      skill_name: 'Python',
+      proficency: 'Proficent'
+    },
+    {
+      skill_name: 'C++',
+      proficency: 'Intermideate'
+    },
+    {
+      skill_name: 'HTML/CSS',
+      proficency: 'Intermideate'
+    },
+    {
+      skill_name: 'React',
+      proficency: 'Intermideate'
+    },
+    {
+      skill_name: 'NodeJS',
+      proficency: 'Intermideate'
+    },
+    {
+      skill_name: 'ExpressJS',
+      proficency: 'Intermideate'
+    },
+    {
+      skill_name: 'SQL',
+      proficency: 'Intermideate'
+    },
+    {
+      skill_name: 'AWS',
+      proficency: 'Intermideate'
+    },
+  ]
+   
 
 }

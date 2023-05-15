@@ -23,7 +23,7 @@ img {
   margin-right: auto;
 }
 .navbar-brand {
-    margin-top:30px;
+    margin-top:1rem;
     float:left;
 }
 .fw-bold {
@@ -32,5 +32,13 @@ img {
 .ms-2 {
     text-align:left;
    
+}
+.title {
+    font-weight:bold;
+    margin-top:1rem;
+   
+}
+.tech_list {
+    color:darkslateblue;
 }
 

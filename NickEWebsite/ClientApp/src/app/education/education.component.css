@@ -30,3 +30,9 @@
 .ms-2 {
   text-align: left;
 }
+.degree {
+    color:darkmagenta;
+    font-weight:bold;
+    font-style:italic;
+}
+
