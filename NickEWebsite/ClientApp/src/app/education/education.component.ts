@@ -9,6 +9,7 @@ export class EducationComponent implements OnInit {
 
   constructor() { }
 
+
   ngOnInit(): void {
   }
   data = [
@@ -16,7 +17,7 @@ export class EducationComponent implements OnInit {
       school_name: 'University of North Texas',
       date: 'January 2021 - December 2022',
       degree:'Bachelors of Science in Computer Science',
-      description:'After gaing a substantial amount of credits from community college I chose to enroll at the University of North Texas because the engineering department had a decent reputation and I appreciated the campus culture. Most of my software development knowlege was gained here. While I was enrolled here the primary focus of my degree was cybersecurity based.'
+      description:'After gaining a substantial amount of credits from community college I chose to enroll at the University of North Texas because the engineering department had a decent reputation and I appreciated the campus culture. Most of my software development knowlege was gained here. While I was enrolled at UNT the primary focus of my degree was cybersecurity.'
     },
     {
       school_name: 'Dallas Community College',
